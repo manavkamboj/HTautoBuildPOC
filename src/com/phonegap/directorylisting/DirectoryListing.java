@@ -9,6 +9,7 @@ public class DirectoryListing extends DroidGap {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.loadUrl("file:///android_asset/www/index.html");
+        super.loadUrl("file:///android_asset/www/index.html",1000);
+        super.setIntegerProperty("splashscreen",R.drawable.splash);
     }
 }
