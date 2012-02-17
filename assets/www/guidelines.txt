@@ -1,0 +1,15 @@
+!! Google guidelines about JS link:
+Backbone patterns and guidelines: http://ricostacruz.com/backbone-patterns
+
+TODO:
+change # with #!
+Find the best pattern to switch views and remove less used views from the DOM
+
+
+Notes:
+Models must not have any reference to the views
+use view.setElement instead of this.$el = domEl
+Cache problems with Chrome: http://stackoverflow.com/questions/9258460/debugging-when-using-require-js-cache
+
+
+

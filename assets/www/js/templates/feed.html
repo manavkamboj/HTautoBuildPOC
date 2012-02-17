@@ -1,0 +1,21 @@
+<script id="feedItemTemplate" type="template">
+    <div class="feed_item">
+        <img class="actor_avatar" src="<%= user_activity.actor.photo %>" />
+        <p><%= user_activity.activity_text %></p>
+
+        <% if (user_answer) { %>
+            <p class="user_answer">
+            <b><%= user_answer.snapshot %></b>
+            <br/>
+            <%= user_answer.long_answer %>
+            </p>
+        <% } %>
+        <% if (user_activity.comment_path){ %>
+            <div class="comments">
+
+            </div>
+        <% } %>
+    </div>
+</script>
+
+

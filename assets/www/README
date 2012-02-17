@@ -1,0 +1,29 @@
+This project is meant to show a good structure for a healthTap project and show guidelines and use cases to use.
+
+File and directory structure
+Root
+    css/
+        jQuery.css
+        ht.css
+    js/
+        libs/                   frameworks and libraries
+            require.js
+            jquery.js
+            underscore.js
+            backbone.js
+            backbone-sync.js    sync override
+            text.js
+            jquery-mobile.js
+        models/
+        collections/
+        routers/
+        views/
+        templates/
+        ht/                     ht utility libraries
+            utility.js
+            settings.js         parameters and settings
+        app.js
+        main.js
+        router.js               handle the navigation between views
+    imgs/
+    index.html
